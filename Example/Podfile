@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RetricaImglyKit_Example' do
+  pod 'RetricaImglyKit', :path => '../'
+
+  target 'RetricaImglyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
