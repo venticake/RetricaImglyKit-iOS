@@ -1,0 +1,16 @@
+PODS:
+  - RetricaImglyKit (0.1.0)
+
+DEPENDENCIES:
+  - RetricaImglyKit (from `../`)
+
+EXTERNAL SOURCES:
+  RetricaImglyKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RetricaImglyKit: a480989cf9d13ca021abf4c8733a945cceeefd51
+
+PODFILE CHECKSUM: e5e3094a53a148075a2ee0db75ef488897bed5de
+
+COCOAPODS: 1.0.1

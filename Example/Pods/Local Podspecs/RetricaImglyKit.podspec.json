@@ -1,0 +1,27 @@
+{
+  "name": "RetricaImglyKit",
+  "version": "0.1.0",
+  "summary": "A short description of RetricaImglyKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pisces/RetricaImglyKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Steve Kim": "pisces@retrica.co"
+  },
+  "source": {
+    "git": "https://github.com/pisces/RetricaImglyKit-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RetricaImglyKit/Classes/**/*",
+  "resource_bundles": {
+    "RetricaImglyKit": [
+      "RetricaImglyKit/Assets/*.png"
+    ]
+  }
+}
