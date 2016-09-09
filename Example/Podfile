@@ -1,6 +1,6 @@
-use_frameworks!
-
 target 'RetricaImglyKit_Example' do
+  pod 'GPUImage', :git => 'https://github.com/venticake/GPUImage.git', :commit => 'b8285f5a583f234ba1db3b24cfa22a90e1b10f14'
+  pod 'RetricaEngine', :git => 'https://github.com/venticake/RetricaEngine-iOS.git'
   pod 'RetricaImglyKit', :path => '../'
 
   target 'RetricaImglyKit_Tests' do

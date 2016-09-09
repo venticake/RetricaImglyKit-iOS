@@ -1,6 +1,0 @@
-framework module RetricaImglyKit {
-  umbrella header "RetricaImglyKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -31,10 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RetricaImglyKit/Classes/**/*'
-  
-  s.resource_bundles = {
-     'RetricaImglyKit' => ['RetricaImglyKit/Assets/*.png']
-  }
+
+  s.resources = 'RetricaImglyKit/Assets/imglyKit.bundle'
+
+# s.resource_bundles = {
+#     'RetricaImglyKit' => ['RetricaImglyKit/Assets/*.bundle']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
