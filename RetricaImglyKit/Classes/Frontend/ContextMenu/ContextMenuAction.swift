@@ -16,6 +16,7 @@ import UIKit
  *  action object, add it to a `ContextMenuController` object before displaying the corresponding
  *  context menu to the user.
  */
+@available(iOS 8, *)
 @objc(IMGLYContextMenuAction) public class ContextMenuAction: NSObject {
 
     // MARK: - Properties

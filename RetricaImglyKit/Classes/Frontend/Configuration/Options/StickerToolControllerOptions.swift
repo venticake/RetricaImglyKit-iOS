@@ -35,6 +35,7 @@ import UIKit
 /**
  Options for configuring a `StickerToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYStickerToolControllerOptions) public class StickerToolControllerOptions: ToolControllerOptions {
     /// An object conforming to `StickersDataSourceProtocol`. By default an instance of
     /// `StickersDataSource` offering all filters is used.
@@ -93,6 +94,7 @@ import UIKit
 /**
  The default `StickerToolControllerOptionsBuilder` for `StickerToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYStickerToolControllerOptionsBuilder) public class StickerToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// An object conforming to `StickersDataSourceProtocol`. By default an instance of

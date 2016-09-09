@@ -12,6 +12,7 @@ import UIKit
 /**
    The `AlphaPickerViewDelegate` protocol defines a set of optional methods you can use to receive value-change messages for AlphaPickerView objects.
  */
+@available(iOS 8, *)
 @objc(IMGLYAlphaPickerViewDelegate) public protocol AlphaPickerViewDelegate {
     /**
      Is called when the alpha value changes.
@@ -28,6 +29,7 @@ import UIKit
     set via `color` or `hue` properties. The background is painted with a checkerboard pattern,
     that is provided by an image called "checkerboard".
  */
+@available(iOS 8, *)
 @objc(IMGLYAlphaPickerView) public class AlphaPickerView: UIView {
 
     /// The receiver’s delegate.

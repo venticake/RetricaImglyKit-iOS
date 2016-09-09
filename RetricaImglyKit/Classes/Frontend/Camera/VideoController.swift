@@ -11,6 +11,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
+@available(iOS 8, *)
 final class VideoController {
 
     // MARK: - Properties

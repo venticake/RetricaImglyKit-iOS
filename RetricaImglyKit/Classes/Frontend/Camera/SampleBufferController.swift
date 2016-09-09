@@ -11,6 +11,7 @@ import AVFoundation
 import CoreImage
 import GLKit
 
+@available(iOS 8, *)
 class SampleBufferController: NSObject {
 
     // MARK: - Properties
@@ -47,6 +48,7 @@ class SampleBufferController: NSObject {
 
 }
 
+@available(iOS 8, *)
 extension SampleBufferController: AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate {
     func captureOutput(captureOutput: AVCaptureOutput!, didOutputSampleBuffer sampleBuffer: CMSampleBuffer!, fromConnection connection: AVCaptureConnection!) {
         guard let formatDescription = CMSampleBufferGetFormatDescription(sampleBuffer) else {

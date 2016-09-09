@@ -13,6 +13,7 @@ import UIKit
  *  An `AdjustToolController` is reponsible for displaying the UI to adjust the brightness, contrast and saturation
  *  of an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYAdjustToolController) public class AdjustToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -231,6 +232,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension AdjustToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -287,6 +289,7 @@ extension AdjustToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension AdjustToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -348,6 +351,7 @@ extension AdjustToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension AdjustToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:

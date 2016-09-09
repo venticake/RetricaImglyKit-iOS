@@ -12,6 +12,7 @@ import UIKit
 /**
  An implementation of `StickersDataSourceProtocol` that can be used to download stickers from a remote source.
  */
+@available(iOS 8, *)
 @objc(IMGLYRemoteStickersDataSource) public class RemoteStickersDataSource: NSObject, StickersDataSourceProtocol {
 
     /// The placeholder string that will be replaced by the token of the token provider.

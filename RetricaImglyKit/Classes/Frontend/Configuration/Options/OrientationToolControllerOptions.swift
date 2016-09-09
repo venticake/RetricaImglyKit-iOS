@@ -34,6 +34,7 @@ import UIKit
 /**
  Options for configuring a `OrientationEditorViewController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYOrientationToolControllerOptions) public class OrientationToolControllerOptions: ToolControllerOptions {
 
     /// Defines all allowed actions. The action buttons are shown in the given order.
@@ -74,6 +75,7 @@ import UIKit
 /**
  The default `OrientationToolControllerOptionsBuilder` for `OrientationToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYOrientationToolControllerOptionsBuilder) public class OrientationToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// Defines all allowed actions. The action buttons are shown in the given order.

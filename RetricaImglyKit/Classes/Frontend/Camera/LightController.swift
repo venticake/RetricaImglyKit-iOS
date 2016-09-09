@@ -38,6 +38,7 @@ import AVFoundation
     }
 }
 
+@available(iOS 8, *)
 extension AVCaptureFlashMode {
     init(lightMode: LightMode) {
         switch lightMode {
@@ -51,6 +52,7 @@ extension AVCaptureFlashMode {
     }
 }
 
+@available(iOS 8, *)
 extension AVCaptureTorchMode {
     init(lightMode: LightMode) {
         switch lightMode {

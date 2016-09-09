@@ -12,6 +12,7 @@ import UIKit
 /**
  *  The `HuePickerViewDelegate` will be used to broadcast changes of the picked hue.
  */
+@available(iOS 8, *)
 @objc(IMGLYHuePickerViewDelegate) public protocol HuePickerViewDelegate {
     /**
      Called when a hue was picked.
@@ -25,6 +26,7 @@ import UIKit
 /**
  *  The `HuePickerView` class provides a view to visualy pick a hue.
  */
+@available(iOS 8, *)
 @objc(IMGLYHuePickerView) public class HuePickerView: UIView {
 
     /// The receiver’s delegate.

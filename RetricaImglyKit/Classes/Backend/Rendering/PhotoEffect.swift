@@ -13,6 +13,7 @@ import CoreImage
 /**
  *  The `PhotoEffect` class describes an effect that can be applied to a photo.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEffect) public class PhotoEffect: NSObject {
 
     // MARK: - Accessors

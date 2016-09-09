@@ -26,6 +26,7 @@ import UIKit
  *  A `TextColorToolController` is reponsible for displaying the UI to adjust the text color of text
  *  that has been added to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextColorToolController) public class TextColorToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -285,6 +286,7 @@ import UIKit
 
 }
 
+@available(iOS 8, *)
 extension TextColorToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -318,6 +320,7 @@ extension TextColorToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension TextColorToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -353,6 +356,7 @@ extension TextColorToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension TextColorToolController: ColorPickerViewDelegate {
     /**
      :nodoc:
@@ -382,6 +386,7 @@ extension TextColorToolController: ColorPickerViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension TextColorToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:

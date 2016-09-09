@@ -36,6 +36,7 @@ import UIKit
 /**
  Options for configuring an `AdjustToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYAdjustToolControllerOptions) public class AdjustToolControllerOptions: ToolControllerOptions {
 
     /// Defines all allowed tools. The adjust tool buttons are shown in the given order.
@@ -91,6 +92,7 @@ import UIKit
 /**
  The default `AdjustToolControllerOptionsBuilder` for `AdjustToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYAdjustToolControllerOptionsBuilder) public class AdjustToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// Defines all allowed tools. The adjust tool buttons are always shown in the given order.

@@ -23,6 +23,7 @@ private class NSTimerActor {
     }
 }
 
+@available(iOS 8, *)
 extension NSTimer {
     class func new(after interval: NSTimeInterval, _ block: () -> ()) -> NSTimer {
         return new(after: interval, repeats: false, block)

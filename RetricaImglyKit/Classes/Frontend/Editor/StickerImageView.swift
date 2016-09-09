@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `StickerImageView` displays an instance of `Sticker` and provides improved support for accessibility.
  */
+@available(iOS 8, *)
 @objc(IMGLYStickerImageView) public class StickerImageView: UIImageView {
 
     // MARK: - Properties

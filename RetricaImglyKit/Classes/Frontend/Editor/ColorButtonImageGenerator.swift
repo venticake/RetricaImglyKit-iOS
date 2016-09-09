@@ -12,6 +12,7 @@ import UIKit
 /**
  A `ColorButtonImageGenerator` can be used to generate an image that overlays a colored image above a background image.
  */
+@available(iOS 8, *)
 @objc(IMGLYColorButtonImageGenerator) public class ColorButtonImageGenerator: NSObject {
     private var image: UIImage? = nil
     private var backgroundImage: UIImage? = nil

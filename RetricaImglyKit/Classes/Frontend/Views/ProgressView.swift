@@ -13,6 +13,7 @@ import UIKit
  *  A `ProgressView` is an activity indicator that is shown on top of all other views in a HUD style
  *  and temporarily blocks all user interaction with other views.
  */
+@available(iOS 8, *)
 @objc(IMGLYProgressView) public class ProgressView: NSObject {
     /// The main container view of the progress view.
     public var overlayView = UIView(frame: CGRect(x: 0, y: 0, width: 202, height: 200))

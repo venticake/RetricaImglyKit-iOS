@@ -12,6 +12,7 @@ import UIKit
 /**
  A `FilterSelectionController` contains everything that is needed to display a list of available filters.
  */
+@available(iOS 8, *)
 @objc(IMGLYFilterSelectionController) public class FilterSelectionController: NSObject {
 
     // MARK: - Statics
@@ -101,6 +102,7 @@ import UIKit
 
 }
 
+@available(iOS 8, *)
 extension FilterSelectionController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -142,6 +144,7 @@ extension FilterSelectionController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension FilterSelectionController: UICollectionViewDelegate {
     /**
      :nodoc:

@@ -13,6 +13,7 @@ import GLKit
 
 private var focusControllerContext = 0
 
+@available(iOS 8, *)
 final class FocusController: NSObject {
 
     // MARK: - Properties

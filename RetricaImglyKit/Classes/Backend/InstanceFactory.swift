@@ -13,6 +13,7 @@ import Foundation
   A helper class that is used to create instances of classes. It is used within the SDK to
   create filters, views, view controllers and so on.
 */
+@available(iOS 8, *)
 @objc(IMGLYInstanceFactory) public class InstanceFactory: NSObject {
 
     // MARK: - Font Related

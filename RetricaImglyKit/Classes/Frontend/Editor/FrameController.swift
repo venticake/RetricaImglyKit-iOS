@@ -12,6 +12,7 @@ import UIKit
 /**
  The `FrameControllerDelegate` protocol defines methods that allow you to pass information to an instance of `FrameController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameControllerDelegate) public protocol FrameControllerDelegate {
     /**
      The normalized cropping rect that is currently applied to the image.
@@ -35,6 +36,7 @@ import UIKit
 /**
  *  The `FrameController` takes care of positioning and updating a frame that is applied to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameController) public class FrameController: NSObject {
 
     // MARK: - Properties

@@ -13,6 +13,7 @@ import UIKit
  *  A `ContextMenuDividerAction` is a special kind of `ContextMenuAction`. It takes no arguments and
  *  is displayed as a visual divider in a context menu controller.
  */
+@available(iOS 8, *)
 @objc(IMGLYContextMenuDividerAction) public class ContextMenuDividerAction: ContextMenuAction {
 
     // MARK: - Initializers

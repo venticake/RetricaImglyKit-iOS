@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `TextLabel` is used to show text that has been added to an image and provides improved support for accessibility.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextLabel) public class TextLabel: UILabel {
 
     // MARK: - Properties

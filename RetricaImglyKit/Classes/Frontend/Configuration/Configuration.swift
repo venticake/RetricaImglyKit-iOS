@@ -24,6 +24,8 @@ public enum ConfigurationError: ErrorType {
 public typealias ButtonConfigurationClosure = (UIButton) -> ()
 
 /// This type is used when configuring a slider.
+
+@available(iOS 8, *)
 public typealias SliderConfigurationClosure = (Slider) -> ()
 
 /// This type is used when configuring a view.
@@ -42,6 +44,7 @@ public typealias WillLeaveToolClosure = () -> ()
  viewControllers contained in the SDK, edit their options in the corresponding
  `configure*ViewController` method of the `ConfigurationBuilder`.
 */
+@available(iOS 8, *)
 @objc(IMGLYConfiguration) public class Configuration: NSObject {
 
     // MARK: Properties
@@ -146,6 +149,7 @@ public typealias WillLeaveToolClosure = () -> ()
  further configure the different viewcontrollers, use the `configureXYZViewController`
  methods to edit the given options.
 */
+@available(iOS 8, *)
 @objc(IMGLYConfigurationBuilder) public class ConfigurationBuilder: NSObject {
 
     /// The background color. Defaults to black.

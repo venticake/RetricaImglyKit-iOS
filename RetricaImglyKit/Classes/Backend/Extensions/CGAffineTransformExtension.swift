@@ -9,6 +9,7 @@
 
 import CoreImage
 
+@available(iOS 8, *)
 extension CGAffineTransform {
     var xScale: CGFloat {
         return sqrt(a * a + c * c)

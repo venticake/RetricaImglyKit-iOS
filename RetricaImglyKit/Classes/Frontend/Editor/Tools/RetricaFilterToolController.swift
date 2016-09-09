@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `FilterToolController` is reponsible for displaying the UI to apply an effect filter to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYRetricaFilterToolController) public class RetricaFilterToolController: PhotoEditToolController, RELensSelectorViewDelegate {
 
     // MARK: - Properties

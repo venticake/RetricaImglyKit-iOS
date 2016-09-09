@@ -9,6 +9,7 @@
 
 import AVFoundation
 
+@available(iOS 8, *)
 extension AVCaptureDevice {
     class func deviceWithMediaType(mediaType: String, preferringPosition position: AVCaptureDevicePosition? = nil) -> AVCaptureDevice? {
         guard let devices = AVCaptureDevice.devicesWithMediaType(mediaType) as? [AVCaptureDevice] else {

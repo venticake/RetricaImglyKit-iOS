@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `TextButton` is used within a `FontSelectorView` to present different fonts and their names.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextButton) public class TextButton: UIButton {
 
     /// The color of the label.

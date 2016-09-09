@@ -13,6 +13,7 @@ import UIKit
  The `SaturationBrightnessPickerViewDelegate` protocol defines methods that allow you respond to the
  events of an instance of `SaturationBrightnessPickerView`.
  */
+@available(iOS 8, *)
 @objc(IMGLYSaturationBrightnessPickerViewDelegate) public protocol SaturationBrightnessPickerViewDelegate {
     /**
      Called when a saturation brightness picker view picked a color.
@@ -27,6 +28,7 @@ import UIKit
  *  A `SaturationBrightnessPickerView` presents a view that can be dragged to select the saturation
  *  within an instance of `ColorPickerView`.
  */
+@available(iOS 8, *)
 @objc(IMGLYSaturationBrightnessPickerView) public class SaturationBrightnessPickerView: UIView {
 
     /// The receiver’s delegate.

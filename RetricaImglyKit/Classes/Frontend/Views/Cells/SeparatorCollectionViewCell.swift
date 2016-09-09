@@ -13,6 +13,7 @@ import UIKit
  *  A `SeparatorCollectionViewCell` is a cell that shows a single 1 pt wide vertical line. It is
  *  usually used to represent a seperator between other cells.
  */
+@available(iOS 8, *)
 @objc(IMGLYSeparatorCollectionViewCell) public class SeparatorCollectionViewCell: UICollectionViewCell {
 
     // MARK: - Properties

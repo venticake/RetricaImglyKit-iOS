@@ -14,6 +14,7 @@ import UIKit
 /**
  The `JSONStore` provides methods to retrieve JSON data from any URL.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameStoreProtocol) public protocol FrameStoreProtocol {
     /**
      Retrieves FrameInfoRecord data, from the JSON located at the specified URL.
@@ -28,6 +29,7 @@ import UIKit
  The `JSONStore` class provides methods to retrieve JSON data from any URL.
  It also caches the data due to efficiency, and performs a sanity check.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameStore) public class FrameStore: NSObject, FrameStoreProtocol {
 
     /// A shared instance for convenience.

@@ -9,10 +9,12 @@
 import UIKit
 import AVFoundation
 
+@available(iOS 8, *)
 @objc(IMGLYPullableViewDelegate) protocol PullableViewDelegate {
     func pullableView(pView: PullableView, didChangeState opend: Bool)
 }
 
+@available(iOS 8, *)
 class PullableView: UIView, UIGestureRecognizerDelegate {
     var marginConstraint: NSLayoutConstraint?
     var openedMargin = CGFloat(0)

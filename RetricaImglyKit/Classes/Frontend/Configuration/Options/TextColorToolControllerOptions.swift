@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `TextColorToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextColorToolControllerOptions) public class TextColorToolControllerOptions: ToolControllerOptions {
 
     /// A list of colors that is available in the text color dialog. This property is optional.
@@ -55,6 +56,7 @@ import UIKit
 /**
  The default `TextColorToolControllerOptionsBuilder` for `TextColorToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextColorToolControllerOptionsBuilder) public class TextColorToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// A list of colors that is available in the text color dialog. This property is optional.

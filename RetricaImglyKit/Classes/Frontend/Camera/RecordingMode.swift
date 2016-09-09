@@ -13,6 +13,7 @@ import Photos
 import MobileCoreServices
 
 /// The `RecordingMode` determins if a photo or a video should be recorded.
+@available(iOS 8, *)
 @objc public enum RecordingMode: Int {
     /// Record a Photo.
     case Photo

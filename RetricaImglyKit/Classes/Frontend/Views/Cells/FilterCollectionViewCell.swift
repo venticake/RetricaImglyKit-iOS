@@ -13,6 +13,7 @@ import UIKit
  *  A `FilterCollectionViewCell` is a cell that shows an image (usually with a filter applied to it) and a label at the bottom.
  *  When selected the cell has an overlay and an selection indicator at the bottom.
  */
+@available(iOS 8, *)
 @objc(IMGLYFilterCollectionViewCell) public class FilterCollectionViewCell: UICollectionViewCell {
 
     // MARK: - Properties

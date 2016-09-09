@@ -11,6 +11,7 @@ import UIKit
 
 /// A `VideoRecordButton` is a button that can be used to start a video recording. It animates between
 /// a 'Start recording' and a 'Stop recording' state.
+@available(iOS 8, *)
 public final class VideoRecordButton: UIControl {
 
     // MARK: - Properties

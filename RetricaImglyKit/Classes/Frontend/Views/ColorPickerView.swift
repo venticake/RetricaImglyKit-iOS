@@ -13,6 +13,7 @@ import UIKit
 /**
  The `ColorPickerViewDelegate` protocol defines a set of optional methods you can use to receive value-change messages for ColorPickerViewDelegate objects.
  */
+@available(iOS 8, *)
 @objc(IMGLYColorPickerViewDelegate) public protocol ColorPickerViewDelegate {
     /**
      Is called when a color has been picked.
@@ -33,6 +34,7 @@ import UIKit
  The `ColorPickerView` class provides a class that is used to pick colors.
  It contains three elements. A hue-picker, a brightness-saturation-picker and a preview of the picked color.
  */
+@available(iOS 8, *)
 @objc(IMGLYColorPickerView) public class ColorPickerView: UIView {
 
     /// The receiver’s delegate.
@@ -147,6 +149,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension ColorPickerView: SaturationBrightnessPickerViewDelegate {
     /**
      :nodoc:
@@ -159,6 +162,7 @@ extension ColorPickerView: SaturationBrightnessPickerViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension ColorPickerView: HuePickerViewDelegate {
     /**
      :nodoc:
@@ -173,6 +177,7 @@ extension ColorPickerView: HuePickerViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension ColorPickerView: AlphaPickerViewDelegate {
     /**
      :nodoc:

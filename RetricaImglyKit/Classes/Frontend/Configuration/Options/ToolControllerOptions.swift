@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `PhotoEditToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYToolControllerOptions) public class ToolControllerOptions: NSObject {
 
     /// The title of the tool. By default this will be displayed in the secondary toolbar.
@@ -64,6 +65,7 @@ import UIKit
 /**
  The default `ToolControllerOptionsBuilder` for `ToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYToolControllerOptionsBuilder) public class ToolControllerOptionsBuilder: NSObject {
     /// The title of the tool. By default this will be displayed in the secondary toolbar.
     public var title: String? = nil

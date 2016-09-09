@@ -9,6 +9,7 @@
 
 import UIKit
 
+@available(iOS 8, *)
 internal class ContextMenuControllerTransitioningDelegate: NSObject, UIViewControllerTransitioningDelegate {
 
     // MARK: - UIViewControllerTransitioningDelegate

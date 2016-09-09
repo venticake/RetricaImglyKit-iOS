@@ -13,6 +13,7 @@ import UIKit
  *  A `LabelCaptionCollectionViewCell` is a cell that displays two labels, one at the top and one at the bottom.
  *  It also has a `selectionIndicator` to show whether or not the cell is currently selected.
  */
+@available(iOS 8, *)
 @objc(IMGLYLabelCaptionCollectionViewCell) public class LabelCaptionCollectionViewCell: UICollectionViewCell {
 
     // MARK: - Properties

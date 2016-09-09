@@ -9,6 +9,7 @@
 
 import Foundation
 
+@available(iOS 8, *)
 extension NSCache {
     subscript(key: AnyObject) -> AnyObject? {
         get {

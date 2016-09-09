@@ -13,6 +13,7 @@ import UIKit
  *  An `IconCaptionCollectionViewCell` is a cell that shows an icon, a label and a `selectionIndicator`
  *  when the cell is selected.
  */
+@available(iOS 8, *)
 @objc(IMGLYIconCaptionCollectionViewCell) public class IconCaptionCollectionViewCell: UICollectionViewCell {
 
     // MARK: - Properties

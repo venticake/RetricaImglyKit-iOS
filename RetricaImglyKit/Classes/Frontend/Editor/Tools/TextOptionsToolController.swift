@@ -13,6 +13,7 @@ import UIKit
  *  A `TextOptionsToolController` is reponsible for displaying the UI to adjust text that has been added
  *  to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextOptionsToolController) public class TextOptionsToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -175,6 +176,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension TextOptionsToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -211,6 +213,7 @@ extension TextOptionsToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension TextOptionsToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -272,6 +275,7 @@ extension TextOptionsToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension TextOptionsToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:

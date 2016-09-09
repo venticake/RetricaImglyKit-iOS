@@ -51,6 +51,7 @@ import UIKit
 /**
  Options for configuring a `PhotoEditViewController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEditViewControllerOptions) public class PhotoEditViewControllerOptions: NSObject {
 
     /// The title of the main view. By default this will be displayed in the secondary toolbar.
@@ -116,6 +117,7 @@ import UIKit
 /**
  The default `PhotoEditViewControllerOptionsBuilder` for `PhotoEditViewControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEditViewControllerOptionsBuilder) public class PhotoEditViewControllerOptionsBuilder: NSObject {
 
     /// The title of the main view. By default this will be displayed in the secondary toolbar.

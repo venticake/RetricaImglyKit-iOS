@@ -13,6 +13,7 @@ import UIKit
  *  A `TextFontToolController` is reponsible for displaying the UI to adjust the font of text that
  *  has been added to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextFontToolController) public class TextFontToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -249,6 +250,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension TextFontToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -290,6 +292,7 @@ extension TextFontToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension TextFontToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -313,6 +316,7 @@ extension TextFontToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension TextFontToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:
@@ -341,6 +345,7 @@ extension TextFontToolController: UICollectionViewDelegateFlowLayout {
     }
 }
 
+@available(iOS 8, *)
 extension TextFontToolController: FontSelectorViewDelegate {
     /**
      :nodoc:

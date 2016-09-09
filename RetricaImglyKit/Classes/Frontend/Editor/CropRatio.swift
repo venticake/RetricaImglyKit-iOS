@@ -13,6 +13,7 @@ import UIKit
  *  Instances of this class can be used together with the `CropEditorViewController` to specify the
  *  crop ratios that should be supported.
  */
+@available(iOS 8, *)
 @objc(IMGLYCropRatio) public class CropRatio: NSObject {
 
     /// The ratio of the crop as `CGFloat`.

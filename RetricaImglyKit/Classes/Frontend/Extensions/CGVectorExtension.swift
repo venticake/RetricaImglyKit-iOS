@@ -37,6 +37,7 @@ func - (lhs: CGPoint, rhs: CGVector) -> CGPoint {
     return CGPoint(x: lhs.x - rhs.dx, y: lhs.y - rhs.dy)
 }
 
+@available(iOS 8, *)
 extension CGVector {
     init(startPoint: CGPoint, endPoint: CGPoint) {
         dx = endPoint.x - startPoint.x

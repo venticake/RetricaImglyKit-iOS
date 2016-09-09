@@ -32,6 +32,7 @@ enum JSONParserError: ErrorType {
 /**
  *  The JSONParser class is out to parse a JSON dicionary into an array of `FrameInfoRecord` entries.
  */
+@available(iOS 8, *)
 @objc(IMGLYJSONFrameParserProtocol) public protocol JSONFrameParserProtocol {
     /**
      Parses the retrieved JSON data to an array of `FrameInfoRecord`s.
@@ -48,6 +49,7 @@ enum JSONParserError: ErrorType {
 /**
  *  The JSONParser class is out to parse a JSON dicionary into an array of `FrameInfoRecord` entries.
  */
+@available(iOS 8, *)
 @objc(IMGLYJSONFrameParser) public class JSONFrameParser: NSObject, JSONFrameParserProtocol {
 
     /**

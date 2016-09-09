@@ -9,6 +9,7 @@
 
 import UIKit
 
+@available(iOS 8, *)
 internal class ContextMenuControllerView: UIView {
 
     // MARK: - Properties

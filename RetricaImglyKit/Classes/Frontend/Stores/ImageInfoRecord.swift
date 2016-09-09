@@ -12,6 +12,7 @@ import Foundation
 /**
  *  Represents a single image entry nested within a frame-JSON file.
  */
+@available(iOS 8, *)
 @objc(IMGLYImageInfoRecord) public class ImageInfoRecord: NSObject {
     /// The image ratio that image has, is out for.
     public var ratio: Float = 1.0

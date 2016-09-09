@@ -28,6 +28,7 @@ import Foundation
     }
 }
 
+@available(iOS 8, *)
 extension NSUndoManager {
     func registerUndoForTarget<TargetType: AnyObject>(target: TargetType, handler: (TargetType) -> Void) {
         if #available(iOS 9, *) {

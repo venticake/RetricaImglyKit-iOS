@@ -9,6 +9,7 @@
 
 import Foundation
 
+@available(iOS 8, *)
 extension NSBundle {
     /// The bundle that contains all assets of the PhotoEditor SDK.
     public class var imglyKitBundle: NSBundle {

@@ -13,6 +13,7 @@ import UIKit
  *  A `IconCollectionViewCell` is a cell that has an image view (usually with an icon) and a
  *  `selectionIndicator` at the bottom of the cell that is only visible when the cell is selected.
  */
+@available(iOS 8, *)
 @objc(IMGLYIconCollectionViewCell) public class IconCollectionViewCell: UICollectionViewCell {
 
     // MARK: - Properties

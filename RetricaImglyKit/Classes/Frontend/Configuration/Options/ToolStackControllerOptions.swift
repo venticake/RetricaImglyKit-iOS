@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `ToolStackController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYToolStackControllerOptions) public class ToolStackControllerOptions: NSObject {
 
     /// The background color of the main toolbar.
@@ -64,6 +65,7 @@ import UIKit
 /**
  The default `ToolStackControllerOptionsBuilder` for `ToolStackControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYToolStackControllerOptionsBuilder) public class ToolStackControllerOptionsBuilder: NSObject {
 
     /// The background color of the main toolbar

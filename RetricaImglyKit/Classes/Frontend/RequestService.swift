@@ -12,6 +12,7 @@ import Foundation
 /**
  *  A request service is used to perform a get request and hand the data over via block.
  */
+@available(iOS 8, *)
 @objc(IMGLYRequestServiceProtocol) public protocol RequestServiceProtocol {
     /**
      Used to perform a get request to the given url.
@@ -26,6 +27,7 @@ import Foundation
 /**
  *  The `RequestService` is out to perform a get request and hand the data over via block.
  */
+@available(iOS 8, *)
 @objc(IMGLYRequestService) public class RequestService: NSObject, RequestServiceProtocol {
 
     /**

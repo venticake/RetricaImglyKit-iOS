@@ -12,6 +12,7 @@ import UIKit
 /**
  *  An `OrientationToolController` is reponsible for displaying the UI to change the orientation of an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYOrientationToolController) public class OrientationToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -173,6 +174,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension OrientationToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -203,6 +205,7 @@ extension OrientationToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension OrientationToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -261,6 +264,7 @@ extension OrientationToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension OrientationToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:

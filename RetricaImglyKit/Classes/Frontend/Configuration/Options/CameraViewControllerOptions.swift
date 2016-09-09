@@ -13,6 +13,7 @@ import AVFoundation
 /**
   Options for configuring a `CameraViewController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYCameraViewControllerOptions) public class CameraViewControllerOptions: NSObject {
 
     /// The views background color. In video mode the colors alpha value is reduced to 0.3.
@@ -130,6 +131,7 @@ import AVFoundation
 /**
  The default `CameraViewControllerOptionsBuilder` for `CameraViewControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYCameraViewControllerOptionsBuilder) public class CameraViewControllerOptionsBuilder: NSObject {
 
     /// The views background color. In video mode the colors alpha value is reduced to 0.3.

@@ -12,6 +12,7 @@ import Foundation
 /**
  *  Handles the geometry of an image and provides helpers to easily rotate or flip an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYImageGeometry) public class ImageGeometry: NSObject, NSCopying {
 
     // MARK: - Properties

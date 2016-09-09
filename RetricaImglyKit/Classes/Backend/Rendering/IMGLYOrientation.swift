@@ -9,6 +9,7 @@
 
 import UIKit
 
+@available(iOS 7, *)
 extension IMGLYOrientation: CustomStringConvertible {
     /// :nodoc:
     public var description: String {

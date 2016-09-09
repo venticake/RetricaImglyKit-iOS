@@ -12,6 +12,7 @@ import Foundation
 /**
  *  The JSONParser class is out to parse a JSON dicionary into an array of `StickerInfoRecord` entries.
  */
+@available(iOS 8, *)
 @objc(IMGLYJSONStickerParserProtocol) public protocol JSONStickerParserProtocol {
     /**
      Parses the retrieved JSON data to an array of `StickerInfoRecord`s.
@@ -28,6 +29,7 @@ import Foundation
 /**
  *  The JSONParser class is out to parse a JSON dicionary into an array of `StickerInfoRecord` entries.
  */
+@available(iOS 8, *)
 @objc(IMGLYJSONStickerParser) public class JSONStickerParser: NSObject, JSONStickerParserProtocol {
 
     /**

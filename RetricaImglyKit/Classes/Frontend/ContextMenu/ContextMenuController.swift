@@ -14,6 +14,7 @@ import UIKit
  *  context menu controller with the actions you want, present it using
  *  the `presentViewController:animated:completion:` method.
  */
+@available(iOS 8, *)
 @objc(IMGLYContextMenuController) public class ContextMenuController: UIViewController {
 
     // MARK: - Properties

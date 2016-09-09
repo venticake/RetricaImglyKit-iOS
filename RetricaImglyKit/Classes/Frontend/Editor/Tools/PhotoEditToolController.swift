@@ -12,6 +12,7 @@ import UIKit
 /**
  The `PhotoEditToolControllerDelegate` protocol defines methods that allow you respond to the events of an instance of `PhotoEditToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEditToolControllerDelegate) public protocol PhotoEditToolControllerDelegate {
     /**
      The photo edit renderer that is being used.
@@ -144,6 +145,7 @@ import UIKit
  *  A `PhotoEditToolController` is the base class for any tool controllers. Subclass this class if you
  *  want to add additional tools to the editor.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEditToolController) public class PhotoEditToolController: UIViewController {
 
     // MARK: - Configuration Properties

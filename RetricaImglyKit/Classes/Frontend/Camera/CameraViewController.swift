@@ -16,6 +16,7 @@ import Photos
  The `CameraViewController` class provides a dialog to perform serveral tasks regarding the camera.
  These include taking photos, switching on the flash, and such.
  */
+@available(iOS 8, *)
 @objc(IMGLYCameraViewController) public class CameraViewController: UIViewController {
 
     // MARK: - Statics
@@ -1447,6 +1448,7 @@ import Photos
     }
 }
 
+@available(iOS 8, *)
 extension CameraViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     /**
      :nodoc:
@@ -1473,6 +1475,7 @@ extension CameraViewController: UIImagePickerControllerDelegate, UINavigationCon
     }
 }
 
+@available(iOS 8, *)
 extension CameraViewController: ToolStackControllerDelegate {
     /**
      :nodoc:
@@ -1497,6 +1500,7 @@ extension CameraViewController: ToolStackControllerDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension CameraViewController: UIGestureRecognizerDelegate {
     /**
     :nodoc:

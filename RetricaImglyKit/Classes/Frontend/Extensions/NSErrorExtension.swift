@@ -11,6 +11,7 @@ import Foundation
 
 let kIMGLYErrorDomain = "IMGLYErrorDomain"
 
+@available(iOS 8, *)
 extension NSError {
     convenience init(info: String) {
         self.init(domain: kIMGLYErrorDomain, code: 0, userInfo: [

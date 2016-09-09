@@ -9,6 +9,7 @@
 
 import UIKit
 
+@available(iOS 8, *)
 internal class ContextMenuControllerAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
 
     // MARK: - Properties

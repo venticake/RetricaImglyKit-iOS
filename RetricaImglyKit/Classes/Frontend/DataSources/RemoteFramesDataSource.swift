@@ -13,6 +13,7 @@ import UIKit
  This protocol is used to get tokens and insert them into the called url.
  That way we can deal with urls that contain tokens.
  */
+@available(iOS 8, *)
 @objc(IMGLYTokenProvider) public protocol TokenProvider {
     /**
      Returns a token that is used to perform an API call.
@@ -25,6 +26,7 @@ import UIKit
 /**
  An implementation of `FramesDataSourceProtocol` that can be used to download frames from a remote source.
  */
+@available(iOS 8, *)
 @objc(IMGLYRemoteFramesDataSource) public class RemoteFramesDataSource: NSObject, FramesDataSourceProtocol {
 
     /// The placeholder string that will be replaced by the token of the token provider.

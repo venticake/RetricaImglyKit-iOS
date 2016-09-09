@@ -13,6 +13,7 @@ import UIKit
 /**
  A class that wraps values for `hue`, `saturation` and `brightness`.
  */
+@available(iOS 8, *)
 @objc(IMGLYHSB) public class HSB: NSObject {
     /// The hue value.
     public let hue: CGFloat
@@ -39,7 +40,8 @@ import UIKit
  */
 public extension UIColor {
     /// Returns the hue, saturation and brightness values for the receiver.
-    @objc(imgly_hsb) public var hsb: HSB {
+    @available(iOS 8, *)
+@objc(imgly_hsb) public var hsb: HSB {
         let model = CGColorSpaceGetModel(CGColorGetColorSpace(self.CGColor))
         if (model == CGColorSpaceModel.Monochrome) || (model == CGColorSpaceModel.RGB) {
             let c = CGColorGetComponents(self.CGColor)

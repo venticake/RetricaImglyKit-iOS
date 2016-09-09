@@ -15,6 +15,7 @@ import CoreText
   Provides functions to import font added as resource. It also registers them,
   so that the application can load them like any other pre-installed font.
 */
+@available(iOS 8, *)
 @objc(IMGLYFontImporter) public class FontImporter: NSObject {
     private static var fontsRegistered = false
 

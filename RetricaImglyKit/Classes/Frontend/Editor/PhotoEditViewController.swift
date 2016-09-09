@@ -19,6 +19,7 @@ public let PhotoEditViewControllerSelectedOverlayViewDidChangeNotification = "Ph
 /**
  The `PhotoEditViewControllerDelegate` protocol defines methods that allow you respond to the events of an instance of `PhotoEditViewController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEditViewControllerDelegate) public protocol PhotoEditViewControllerDelegate {
     /**
      Called when a new tool was selected.
@@ -71,6 +72,7 @@ public let PhotoEditViewControllerSelectedOverlayViewDidChangeNotification = "Ph
 /**
  *  A `PhotoEditViewController` is responsible for presenting and rendering an edited image.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEditViewController) public class PhotoEditViewController: UIViewController {
 
     // MARK: - Statics
@@ -1381,6 +1383,7 @@ public let PhotoEditViewControllerSelectedOverlayViewDidChangeNotification = "Ph
     }
 }
 
+@available(iOS 8, *)
 extension PhotoEditViewController: GLKViewDelegate {
     /**
      :nodoc:
@@ -1395,6 +1398,7 @@ extension PhotoEditViewController: GLKViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension PhotoEditViewController: UIScrollViewDelegate {
     private func updateScrollViewCentering() {
         guard let previewViewScrollingContainer = previewViewScrollingContainer else {
@@ -1499,6 +1503,7 @@ extension PhotoEditViewController: UIScrollViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension PhotoEditViewController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -1576,6 +1581,7 @@ extension PhotoEditViewController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension PhotoEditViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:
@@ -1669,6 +1675,7 @@ extension PhotoEditViewController: UICollectionViewDelegate, UICollectionViewDel
     }
 }
 
+@available(iOS 8, *)
 extension PhotoEditViewController: PhotoEditToolControllerDelegate {
     /**
      :nodoc:
@@ -1818,6 +1825,7 @@ extension PhotoEditViewController: PhotoEditToolControllerDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension PhotoEditViewController: UIGestureRecognizerDelegate {
     /**
      :nodoc:
@@ -1846,6 +1854,7 @@ extension PhotoEditViewController: UIGestureRecognizerDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension PhotoEditViewController: FrameControllerDelegate {
     /**
      :nodoc:

@@ -12,6 +12,7 @@ import CoreImage
 /**
  *  Applies clarity to an instance of `CIImage`.
  */
+@available(iOS 8, *)
 @objc(IMGLYClarityFilter) public class ClarityFilter: CIFilter {
 
     // MARK: - Properties

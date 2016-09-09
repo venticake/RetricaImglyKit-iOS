@@ -12,6 +12,7 @@ import UIKit
 /**
  *  The `Frame` class holds all informations needed to be managed and rendered.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrame) public class Frame: NSObject {
 
     /// The label of the frame. This is used for accessibility.

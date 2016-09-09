@@ -16,6 +16,7 @@ import MobileCoreServices
  *  A `PhotoEditRenderer` takes a `CIImage` and an `IMGLYPhotoEditModel` as input and takes care of applying all necessary effects and filters to the image.
  *  The output image can then be rendered into an `EAGLContext` or converted into a `CGImage` instance.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEditRenderer) public class PhotoEditRenderer: NSObject {
 
     /// The input image.

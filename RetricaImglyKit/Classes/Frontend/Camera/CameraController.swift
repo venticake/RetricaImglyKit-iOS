@@ -30,6 +30,7 @@ private var cameraControllerContext = 0
  The `CameraController` class provides functions for serveral camera related tasks,
  including setup, flash control, and such.
  */
+@available(iOS 8, *)
 @objc(IMGLYCameraController) public class CameraController: NSObject {
 
     // MARK: - Properties

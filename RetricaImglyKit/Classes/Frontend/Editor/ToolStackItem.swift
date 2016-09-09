@@ -14,6 +14,7 @@ let ToolStackItemDidChangeNotification = "ToolStackItemDidChangeNotification"
 /**
  *  A `ToolStackItem` object manages the views to be displayed in the toolbars of a `ToolStackController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYToolStackItem) public class ToolStackItem: NSObject {
 
     private var transactionDepth: Int = 0

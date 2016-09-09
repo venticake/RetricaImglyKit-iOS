@@ -12,6 +12,7 @@ import CoreImage
 /**
  *  Applies a linear focus to an instance of `CIImage`.
  */
+@available(iOS 8, *)
 @objc(IMGLYLinearFocusFilter) public class LinearFocusFilter: CIFilter {
 
     // MARK: - Properties

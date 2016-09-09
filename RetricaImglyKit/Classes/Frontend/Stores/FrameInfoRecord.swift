@@ -12,6 +12,7 @@ import Foundation
 /**
  *  Represents a single frame information retrieved via JSON.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameInfoRecord) public class FrameInfoRecord: NSObject {
     /// The name of the image.
     public var name = ""

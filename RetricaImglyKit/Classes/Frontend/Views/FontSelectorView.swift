@@ -12,6 +12,7 @@ import UIKit
 /**
  The `FontSelectorViewDelegate` protocol defines methods that allow you respond to the events of an instance of `FontSelectorView`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFontSelectorViewDelegate) public protocol FontSelectorViewDelegate {
     /**
      Called when the font selector selected a font.
@@ -25,6 +26,7 @@ import UIKit
 /**
  The `FontSelectorView` class provides a class that is used to select a font.
  */
+@available(iOS 8, *)
 @objc(IMGLYFontSelectorView) public class FontSelectorView: UIScrollView {
 
     /// The receiver’s delegate.

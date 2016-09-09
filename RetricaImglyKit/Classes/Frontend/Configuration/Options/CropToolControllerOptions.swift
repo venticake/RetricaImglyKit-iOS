@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `CropToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYCropToolControllerOptions) public class CropToolControllerOptions: ToolControllerOptions {
     /// Defines all allowed crop ratios. The crop ratio buttons are shown in the given order.
     /// Defaults to `Free`, `1:1`, `4:3` and `16:9`. Setting this to an empty array is ignored.
@@ -51,6 +52,7 @@ import UIKit
 /**
 The default `CropToolControllerOptionsBuilder` for `CropToolControllerOptions`.
 */
+@available(iOS 8, *)
 @objc(IMGLYCropToolControllerOptionsBuilder) public class CropToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// Defines all allowed crop ratios. The crop ratio buttons are shown in the given order.

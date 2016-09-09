@@ -13,6 +13,7 @@ import UIKit
  *  A `ColorCollectionViewCell` is a cell that shows a solid color and an image view on top of that color when the cell
  *  is selected. It also has a `selectionIndicator` to show whether or not the cell is currently selected.
  */
+@available(iOS 8, *)
 @objc(IMGLYColorCollectionViewCell) public class ColorCollectionViewCell: UICollectionViewCell {
 
     // MARK: - Properties

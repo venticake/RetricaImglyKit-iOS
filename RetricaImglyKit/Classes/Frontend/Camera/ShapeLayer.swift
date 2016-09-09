@@ -9,6 +9,7 @@
 
 import QuartzCore
 
+@available(iOS 8, *)
 class ShapeLayer: CAShapeLayer {
     override func actionForKey(event: String) -> CAAction? {
         if event == "path" {

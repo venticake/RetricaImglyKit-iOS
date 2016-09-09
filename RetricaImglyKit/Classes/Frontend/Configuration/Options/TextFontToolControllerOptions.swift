@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `TextFontToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextFontToolControllerOptions) public class TextFontToolControllerOptions: ToolControllerOptions {
 
     /// This closure allows further configuration of the action buttons. The closure is called for
@@ -47,6 +48,7 @@ import UIKit
 /**
  The default `TextFontToolControllerOptionsBuilder` for `TextFontToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextFontToolControllerOptionsBuilder) public class TextFontToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// This closure allows further configuration of the action buttons. The closure is called for

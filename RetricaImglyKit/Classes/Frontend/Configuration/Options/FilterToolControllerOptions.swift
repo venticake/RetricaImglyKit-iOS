@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `FilterToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFilterToolControllerOptions) public class FilterToolControllerOptions: ToolControllerOptions {
 
     /// This closure can be used to configure the filter intensity slider.
@@ -68,6 +69,7 @@ import UIKit
 /**
  The default `FilterToolControllerOptionsBuilder` for `FilterToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFilterToolControllerOptionsBuilder) public class FilterToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// This closure can be used to configure the filter intensity slider.

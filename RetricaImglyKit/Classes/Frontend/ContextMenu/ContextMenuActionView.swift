@@ -9,6 +9,7 @@
 
 import UIKit
 
+@available(iOS 8, *)
 internal class ContextMenuActionView: UIView {
 
     // MARK: - Properties
@@ -71,6 +72,7 @@ internal class ContextMenuActionView: UIView {
 
 // MARK: - UIGestureRecognizerDelegate
 
+@available(iOS 8, *)
 extension ContextMenuActionView: UIGestureRecognizerDelegate {
     func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRequireFailureOfGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         if otherGestureRecognizer is UISwipeGestureRecognizer {

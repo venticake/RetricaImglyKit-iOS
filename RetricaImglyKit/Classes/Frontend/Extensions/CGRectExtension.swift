@@ -9,6 +9,7 @@
 
 import UIKit
 
+@available(iOS 8, *)
 extension CGRect {
     init?(points: [CGPoint]) {
         var maxX: CGFloat?

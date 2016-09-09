@@ -47,6 +47,7 @@ import UIKit
 /**
  Options for configuring a `TextOptionsToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLTextOptionsToolControllerOptions) public class TextOptionsToolControllerOptions: ToolControllerOptions {
 
     /// Defines all allowed actions. Only buttons for allowed action are visible.
@@ -101,6 +102,7 @@ import UIKit
 /**
  The default `TextOptionsToolControllerOptionsBuilder` for `TextOptionsToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextOptionsToolControllerOptionsBuilder) public class TextOptionsToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
     /// Defines all allowed actions. Only buttons for allowed action are visible.
     /// Defaults to show all available actions.

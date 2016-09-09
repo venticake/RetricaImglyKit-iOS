@@ -12,6 +12,7 @@ import QuartzCore
 /**
  *  `AnimationDelegate` can be used as the delegate of a `CAAnimation` to easily specify a completion block.
  */
+@available(iOS 8, *)
 @objc(IMGLYAnimationDelegate) public class AnimationDelegate: NSObject {
 
     // MARK: - Properties

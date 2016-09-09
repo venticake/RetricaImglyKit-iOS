@@ -12,6 +12,7 @@ import CoreImage
 /**
  *  Applies a radial focus to an instance of `CIImage`.
  */
+@available(iOS 8, *)
 @objc(IMGLYRadialFocusFilter) public class RadialFocusFilter: CIFilter {
 
     // MARK: - Properties

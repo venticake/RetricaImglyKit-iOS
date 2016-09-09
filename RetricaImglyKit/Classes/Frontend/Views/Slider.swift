@@ -13,6 +13,7 @@ import UIKit
 /// values. Sliders are always displayed as horizontal bars. An indicator, or thumb, notes the
 /// current value of the slider and can be moved by the user to change the setting.
 /// A vertical indicator, or neutral point, notes the default, unchanged value of the slider.
+@available(iOS 8, *)
 @objc(IMGLYSlider) public class Slider: UIControl {
 
     // MARK: - Properties

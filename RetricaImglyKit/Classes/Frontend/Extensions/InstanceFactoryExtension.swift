@@ -10,6 +10,7 @@
 import Foundation
 import CoreGraphics
 
+@available(iOS 8, *)
 extension InstanceFactory {
     // MARK: - Editor View Controllers
 

@@ -14,6 +14,7 @@ import AVFoundation
 /**
  Used to determine device orientation even if orientation lock is active.
  */
+@available(iOS 8, *)
 @objc(IMGLYDeviceOrientationController) public class DeviceOrientationController: NSObject {
 
     // MARK: - Properties

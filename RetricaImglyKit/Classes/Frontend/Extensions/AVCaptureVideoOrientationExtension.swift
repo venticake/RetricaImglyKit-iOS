@@ -9,6 +9,7 @@
 
 import AVFoundation
 
+@available(iOS 8, *)
 extension AVCaptureVideoOrientation {
     func toTransform(mirrored: Bool = false) -> CGAffineTransform {
         let result: CGAffineTransform

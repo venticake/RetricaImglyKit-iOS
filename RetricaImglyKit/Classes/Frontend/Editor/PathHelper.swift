@@ -12,6 +12,7 @@ import UIKit
 /**
  *  The `PathHelper` class bundles helper methods to work with paths.
  */
+@available(iOS 8, *)
 @objc(IMGLYPathHelper) public class PathHelper: NSObject {
     /**
      Can be used to add a rounded rectangle path to a context.

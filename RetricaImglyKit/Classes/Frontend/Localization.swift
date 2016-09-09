@@ -12,6 +12,7 @@ import Foundation
 var localizationBlock: ((stringToLocalize: String) -> String?)?
 var localizationDictionary: [String: [String: String]]?
 
+@available(iOS 8, *)
 func Localize(stringToken: String) -> String {
     // If a custom localization block is set, try that
     if let localizationFromBlock = localizationBlock?(stringToLocalize: stringToken) {

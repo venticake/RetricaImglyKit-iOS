@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `CropToolController` is reponsible for displaying the UI to crop an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYCropToolController) public class CropToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -624,6 +625,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension CropToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -636,6 +638,7 @@ extension CropToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension CropToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -669,6 +672,7 @@ extension CropToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension CropToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:

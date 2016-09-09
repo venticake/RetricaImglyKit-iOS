@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `FocusToolController` is reponsible for displaying the UI to adjust the focus of an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYFocusToolController) public class FocusToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -332,6 +333,7 @@ import UIKit
 
 }
 
+@available(iOS 8, *)
 extension FocusToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -358,6 +360,7 @@ extension FocusToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension FocusToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -402,6 +405,7 @@ extension FocusToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension FocusToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:
@@ -420,6 +424,7 @@ extension FocusToolController: UICollectionViewDelegateFlowLayout {
     }
 }
 
+@available(iOS 8, *)
 extension FocusToolController: GradientViewDelegate {
     /**
      :nodoc:

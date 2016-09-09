@@ -12,6 +12,7 @@ import UIKit
 /**
  A `CropRectComponent` holds all the logic for the cropping view.
  */
+@available(iOS 8, *)
 @objc(IMGLYCropRectComponent) public class CropRectComponent: NSObject {
     /// The currently visible cropping area.
     public var cropRect = CGRect.zero

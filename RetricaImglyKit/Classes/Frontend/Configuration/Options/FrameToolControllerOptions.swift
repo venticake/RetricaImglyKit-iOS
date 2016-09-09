@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `FramesEditorViewController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameToolControllerOptions) public class FrameToolControllerOptions: ToolControllerOptions {
 
     /// An object conforming to the `FramesDataSourceProtocol`
@@ -54,6 +55,7 @@ import UIKit
 /**
  The default `FrameToolControllerOptionsBuilder` for `FrameToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameToolControllerOptionsBuilder) public class FrameToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// An object conforming to the `FramesDataSourceProtocol`

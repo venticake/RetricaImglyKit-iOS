@@ -13,6 +13,7 @@ import UIKit
  An object that adopts the `FramesDataSourceProtocol` protocol is responsible for providing the data
  that is required to display and add frames to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYFramesDataSourceProtocol) public protocol FramesDataSourceProtocol {
     /**
      Returns the count of the frames. We added a ratio parameter in case you only to show frames that have a mathing ratio.
@@ -45,6 +46,7 @@ import UIKit
 /**
  An implementation of `FramesDataSourceProtocol` with all available frames.
  */
+@available(iOS 8, *)
 @objc(IMGLYFramesDataSource) public class FramesDataSource: NSObject, FramesDataSourceProtocol {
 
     private var frames = [Frame]()

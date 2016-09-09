@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `TextToolController` is reponsible for displaying the UI to add text to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextToolController) public class TextToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -238,6 +239,7 @@ import UIKit
 
 }
 
+@available(iOS 8, *)
 extension TextToolController: UITextFieldDelegate {
     /**
      :nodoc:

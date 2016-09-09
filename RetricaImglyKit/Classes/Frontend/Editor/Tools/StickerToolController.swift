@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `StickerToolController` is reponsible for displaying the UI to add stickers to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYStickerToolController) public class StickerToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -129,6 +130,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension StickerToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -172,6 +174,7 @@ extension StickerToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension StickerToolController: UICollectionViewDelegate {
     /**
      :nodoc:

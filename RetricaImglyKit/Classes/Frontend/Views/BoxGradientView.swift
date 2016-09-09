@@ -11,6 +11,7 @@ import UIKit
    Two controlpoints define the upper and lower midpoint of that box. Therefore they determin the rotation,
    position and size of the box.
  */
+@available(iOS 8, *)
 @objc(IMGLYBoxGradientView) public class BoxGradientView: UIView {
 
     // MARK: - Private Structs
@@ -296,6 +297,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension BoxGradientView: UIGestureRecognizerDelegate {
     /**
      :nodoc:

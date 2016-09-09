@@ -15,7 +15,8 @@ Adds framework-related methods to `UIImage`.
 */
 public extension UIImage {
     /// Returns a copy of the image, taking into account its orientation
-    @objc(imgly_normalizedImage) public var normalizedImage: UIImage {
+    @available(iOS 8, *)
+@objc(imgly_normalizedImage) public var normalizedImage: UIImage {
         if imageOrientation == .Up {
             return self
         }
@@ -32,7 +33,8 @@ public extension UIImage {
 
     - discussion: The image will be scaled disproportionately if necessary to fit the bounds specified by the parameter.
     */
-    @objc(imgly_normalizedImageOfSize:) public func normalizedImageOfSize(size: CGSize) -> UIImage {
+    @available(iOS 8, *)
+@objc(imgly_normalizedImageOfSize:) public func normalizedImageOfSize(size: CGSize) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(size, false, scale)
         drawInRect(CGRect(origin: CGPoint.zero, size: size))
         let normalizedImage = UIGraphicsGetImageFromCurrentImageContext()
@@ -49,7 +51,8 @@ public extension UIImage {
 
     - returns: An image that is rescaleable based on the information given by the input image.
     */
-    @objc(imgly_resizableImageFrom9Patch:) public func resizableImageFrom9Patch(image: UIImage) -> UIImage {
+    @available(iOS 8, *)
+@objc(imgly_resizableImageFrom9Patch:) public func resizableImageFrom9Patch(image: UIImage) -> UIImage {
         let pixelData = CGDataProviderCopyData(CGImageGetDataProvider(self.CGImage))
         let data: UnsafePointer<UInt8> = CFDataGetBytePtr(pixelData)
         let ninePatchBounds = determinBounds(data)
@@ -148,7 +151,8 @@ public extension UIImage {
      - parameter rect:        The rect to draw into.
      - parameter contentMode: The content mode to use for drawing.
      */
-    @objc(imgly_drawInRect:withContentMode:) public func drawInRect(rect: CGRect, withContentMode contentMode: UIViewContentMode) {
+    @available(iOS 8, *)
+@objc(imgly_drawInRect:withContentMode:) public func drawInRect(rect: CGRect, withContentMode contentMode: UIViewContentMode) {
         switch contentMode {
         case .ScaleAspectFill:
             let sourceScale = size.width / size.height
@@ -172,6 +176,7 @@ public extension UIImage {
 }
 
 /// :nodoc:
+@available(iOS 7, *)
 extension UIImageOrientation: CustomStringConvertible {
     /// :nodoc:
     public var description: String {

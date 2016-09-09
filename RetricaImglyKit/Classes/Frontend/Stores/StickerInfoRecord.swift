@@ -12,6 +12,7 @@ import Foundation
 /**
  *  Represents a single sticker information retrieved via JSON.
  */
+@available(iOS 8, *)
 @objc(IMGLYStickerInfoRecord) public class StickerInfoRecord: NSObject {
     /// The name of the image.
     public var name = ""

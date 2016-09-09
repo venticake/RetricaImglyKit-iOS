@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `TextToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextToolControllerOptions) public class TextToolControllerOptions: ToolControllerOptions {
 
     /// Use this closure to configure the text input field.
@@ -43,6 +44,7 @@ import UIKit
 /**
  The default `TextToolControllerOptionsBuilder` for `TextToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYTextToolControllerOptionsBuilder) public class TextToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// Use this closure to configure the text input field.

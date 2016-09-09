@@ -8,6 +8,7 @@ import UIKit
 /**
  The `GradientViewDelegate` protocol defines methods that allow you respond to the events of an instance of `CircleGradientView` or `BoxGradientView`.
  */
+@available(iOS 8, *)
 @objc(IMGLYGradientViewDelegate) public protocol GradientViewDelegate {
     /**
      Called when the user interaction starts in a gradient view.

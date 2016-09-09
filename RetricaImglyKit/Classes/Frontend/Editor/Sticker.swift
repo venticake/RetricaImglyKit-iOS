@@ -12,6 +12,7 @@ import UIKit
 /**
  *  The `Sticker` class holds all informations needed to be managed and rendered.
  */
+@available(iOS 8, *)
 @objc(IMGLYSticker) public class Sticker: NSObject {
     /// The image URL of the sticker.
     public let imageURL: NSURL?

@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `FrameToolController` is reponsible for displaying the UI to add or remove a frame to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYFrameToolController) public class FrameToolController: PhotoEditToolController {
 
     // MARK: - Statics
@@ -160,6 +161,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension FrameToolController: UICollectionViewDataSource {
     /**
      :nodoc:
@@ -214,6 +216,7 @@ extension FrameToolController: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 8, *)
 extension FrameToolController: UICollectionViewDelegate {
     /**
      :nodoc:
@@ -271,6 +274,7 @@ extension FrameToolController: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 8, *)
 extension FrameToolController: UICollectionViewDelegateFlowLayout {
     /**
      :nodoc:

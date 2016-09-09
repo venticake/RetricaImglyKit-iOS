@@ -12,6 +12,7 @@ import UIKit
 /**
  The `ToolStackControllerDelegate` protocol defines methods that allow you respond to the events of an instance of `ToolStackController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYToolStackControllerDelegate) public protocol ToolStackControllerDelegate {
     /**
      Called when the tool stack controller is done and an output image could be generated.
@@ -40,6 +41,7 @@ import UIKit
  *  An instance of `ToolStackController` manages the presentation and dismissal of `PhotoEditToolController` instances
  *  onto an instance of a `PhotoEditViewController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYToolStackController) public class ToolStackController: UIViewController {
 
     private struct ToolbarContainer {
@@ -717,6 +719,7 @@ import UIKit
     }
 }
 
+@available(iOS 8, *)
 extension ToolStackController: PhotoEditViewControllerDelegate {
     /**
      :nodoc:

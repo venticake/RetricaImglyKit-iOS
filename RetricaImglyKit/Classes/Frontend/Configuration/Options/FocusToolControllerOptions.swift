@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `FocusToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFocusToolControllerOptions) public class FocusToolControllerOptions: ToolControllerOptions {
     /// Defines all allowed focus types. The focus buttons are shown in the given order.
     /// Defaults to show all available modes. The .Off type is always added. To set this
@@ -73,6 +74,7 @@ import UIKit
 /**
  The default `FocusToolControllerOptionsBuilder` for `FocusToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYFocusToolControllerOptionsBuilder) public class FocusToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// Defines all allowed focus types. The focus buttons are shown in the given order.

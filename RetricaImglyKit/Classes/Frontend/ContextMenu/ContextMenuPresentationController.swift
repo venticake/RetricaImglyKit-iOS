@@ -14,6 +14,7 @@ import UIKit
  *  nearly all cases you use this class as-is and do not create instances of it directly. imglyKit
  *  creates an instance of this class automatically when you present a context menu controller.
  */
+@available(iOS 8, *)
 @objc(IMGLYContextMenuPresentationController) public class ContextMenuPresentationController: UIPresentationController {
 
     // MARK: - Statics

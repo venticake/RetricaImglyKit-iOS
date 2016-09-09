@@ -12,6 +12,7 @@ import UIKit
 /**
  The `JSONStore` provides methods to retrieve JSON data from any URL.
  */
+@available(iOS 8, *)
 @objc(IMGLYJSONStoreProtocol) public protocol JSONStoreProtocol {
     /**
      Retrieves JSON data from the specified URL.
@@ -26,6 +27,7 @@ import UIKit
  The `JSONStore` class provides methods to retrieve JSON data from any URL.
  It also caches the data due to efficiency.
  */
+@available(iOS 8, *)
 @objc(IMGLYJSONStore) public class JSONStore: NSObject, JSONStoreProtocol {
 
     /// A shared instance for convenience.

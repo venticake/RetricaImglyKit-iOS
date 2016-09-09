@@ -11,6 +11,7 @@ import UIKit
  Two controlpoints define two opposing points on the frame of the induced circle. Therefore they determin the rotation,
  position and size of the circle.
  */
+@available(iOS 8, *)
 @objc(IMGLYCircleGradientView) public class CircleGradientView: UIView {
 
     /// The center point between `controlPoint1` and `controlPoint2`.

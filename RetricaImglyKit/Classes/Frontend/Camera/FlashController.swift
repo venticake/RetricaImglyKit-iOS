@@ -9,6 +9,7 @@
 
 import AVFoundation
 
+@available(iOS 8, *)
 final class FlashController: NSObject, LightControllable {
 
     // MARK: - Properties

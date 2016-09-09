@@ -7,6 +7,7 @@
 //  The license agreement can be found under the following link:
 //  https://www.photoeditorsdk.com/LICENSE.txt
 
+@available(iOS 8, *)
 struct SDKVersion: Comparable, CustomStringConvertible {
     let majorVersion: Int
     let minorVersion: Int
@@ -49,10 +50,12 @@ struct SDKVersion: Comparable, CustomStringConvertible {
     }
 }
 
+@available(iOS 8, *)
 func == (lhs: SDKVersion, rhs: SDKVersion) -> Bool {
     return (lhs.majorVersion == rhs.majorVersion) && (lhs.minorVersion == rhs.minorVersion) && (lhs.patchVersion == rhs.patchVersion)
 }
 
+@available(iOS 8, *)
 func < (lhs: SDKVersion, rhs: SDKVersion) -> Bool {
     if lhs.majorVersion < rhs.majorVersion {
         return true
@@ -79,6 +82,7 @@ func < (lhs: SDKVersion, rhs: SDKVersion) -> Bool {
 
 internal var kDidCheckSDKVersion = false
 
+@available(iOS 8, *)
 internal func checkSDKVersionIfNeeded() {
     if kDidCheckSDKVersion {
         return

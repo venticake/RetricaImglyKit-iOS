@@ -12,6 +12,7 @@ import UIKit
 /**
  *  A `GradientView` shows a gradient from its top to its bottom.
  */
+@available(iOS 8, *)
 @objc(IMGLYGradientView) public class GradientView: UIView {
 
     // MARK: - Properties

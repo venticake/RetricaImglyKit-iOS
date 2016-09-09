@@ -12,6 +12,7 @@ import UIKit
 /**
  Options for configuring a `FilterToolController`.
  */
+@available(iOS 8, *)
 @objc(IMGLYRetricaFilterToolControllerOptions) public class RetricaFilterToolControllerOptions: ToolControllerOptions {
 
     /// This closure can be used to configure the filter intensity slider.
@@ -68,6 +69,7 @@ import UIKit
 /**
  The default `RetricaFilterToolControllerOptionsBuilder` for `RetricaFilterToolControllerOptions`.
  */
+@available(iOS 8, *)
 @objc(IMGLYRetricaFilterToolControllerOptionsBuilder) public class RetricaFilterToolControllerOptionsBuilder: ToolControllerOptionsBuilder {
 
     /// This closure can be used to configure the filter intensity slider.

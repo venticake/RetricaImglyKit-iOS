@@ -13,6 +13,7 @@ import UIKit
  An object that adopts the `StickersDataSourceProtocol` protocol is responsible for providing the data
  that is required to display and add stickers to an image.
  */
+@available(iOS 8, *)
 @objc(IMGLYStickersDataSourceProtocol) public protocol StickersDataSourceProtocol {
     /**
      Returns the total count of stickers.
@@ -41,6 +42,7 @@ import UIKit
 /**
  An implementation of `StickersDataSourceProtocol` with all available stickers.
  */
+@available(iOS 8, *)
 @objc(IMGLYStickersDataSource) public class StickersDataSource: NSObject, StickersDataSourceProtocol {
 
     private let stickers: [Sticker]

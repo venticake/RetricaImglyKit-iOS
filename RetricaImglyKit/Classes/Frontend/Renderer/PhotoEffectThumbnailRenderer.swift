@@ -13,6 +13,7 @@ import UIKit
  *  A `PhotoEffectThumbnailRenderer` can be used to generate thumbnails of a given input image
  *  for multiple photo effects.
  */
+@available(iOS 8, *)
 @objc(IMGLYPhotoEffectThumbnailRenderer) public class PhotoEffectThumbnailRenderer: NSObject {
 
     // MARK: - Properties

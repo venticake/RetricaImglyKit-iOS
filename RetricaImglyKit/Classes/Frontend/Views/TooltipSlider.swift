@@ -15,6 +15,7 @@ import UIKit
 /// A vertical indicator, or neutral point, notes the default, unchanged value of the slider.
 /// Additionally a `TooltipSlider` also presents a tooltip above the thumb image that displays the current
 /// selected value while dragging.
+@available(iOS 8, *)
 public class TooltipSlider: Slider {
 
     // MARK: - Properties
